@@ -1,0 +1,88 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:700,900");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/6614970fa4f8b7ac2f8cce70.66149710a4f8b7ac2f8cce73.PuhAZYz.hcp.png");
+
+@font-face {
+  font-family: "ProximaNova-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ProximaNova-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/FontsFree-Net-pr2.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ProximaNova-Extrabold";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/Proxima Nova Extrabold.otf") format("opentype");
+}
+@font-face {
+  font-family: "FatFrank-Heavy";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/.25163.otf") format("opentype");
+}
+@font-face {
+  font-family: "ProximaNova-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Mark Simonson - Proxima Nova Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "SegoeUI-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/segoeui.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SegoeUI-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/segoeuib.ttf") format("truetype");
+}
+@font-face {
+  font-family: "AdobeClean-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/AdobeClean-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "AdobeClean-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/AdobeClean-Regular.otf") format("opentype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.screenshot-2024-04-01-at-62337-pm {
+  height: 125px;
+  object-fit: cover;
+  width: 129px;
+}
